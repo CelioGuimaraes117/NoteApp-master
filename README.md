@@ -39,6 +39,6 @@ Gerencie suas tarefas profissionais, domésticas e pessoais com o aplicativo de 
 ```bash
 # No diretorio do projeto execute:
 npm install & npm start
-Após o NPM START, ir em app.js e trocar o ./app.js por ./App.js
+Após o npm start, ir em app.js e trocar o ./app.js por ./App.js
 ```
 
