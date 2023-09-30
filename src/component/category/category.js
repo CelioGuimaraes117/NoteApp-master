@@ -42,3 +42,4 @@ const Category = ({ name, id, index, bgStyle, setbgStyle }) => {
 };
 
 export default Category;
+

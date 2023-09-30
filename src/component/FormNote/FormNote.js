@@ -113,7 +113,7 @@ const FormNote = React.memo(() => {
   return (
     <div className="modal-container">
       <h4 className="modal-title">
-        {state.updateNote ? "update note" : "add note"}
+        {state.updateNote ? "update note" : "Nova nota"}
       </h4>
 
       <Formik
@@ -147,14 +147,14 @@ const FormNote = React.memo(() => {
                   value={state._title}
                   type="text"
                   name="_title"
-                  placeholder="Add title..."
+                  placeholder="Adicionar nova nota"
                   className="input-note-title"
                   onChange={(e) => dispatch(setTitle(e.target.value))}
                   onBlur={handleBlur}
                   autoComplete="off"
                 />
                 {errors._title && touched._title ? (
-                  <span className="required">required</span>
+                  <span className="required">Obrigatório</span>
                 ) : null}
               </div>
               <div className="control-input height-textarea">
@@ -164,12 +164,12 @@ const FormNote = React.memo(() => {
                   rows="10"
                   className="text-area"
                   name="_textArea"
-                  placeholder="Add description..."
+                  placeholder="Descreva sua nota"
                   onChange={(e) => dispatch(setTextArea(e.target.value))}
                   onBlur={handleBlur}
                 ></textarea>
                 {errors._textArea && touched._textArea ? (
-                  <span className="required">required</span>
+                  <span className="required">Obrigatório</span>
                 ) : null}
               </div>
             </div>
@@ -184,10 +184,10 @@ const FormNote = React.memo(() => {
                 value={defaultValue(state.cat.slice(1), state._cat)}
                 onBlur={() => setFieldTouched("_category", true)}
                 onChange={(e) => dispatch(setCat(e.value))}
-                placeholder="gategory"
+                placeholder="Categoria"
               />
               {errors._category && touched._category ? (
-                <span className="required">required</span>
+                <span className="required">Obrigatório</span>
               ) : null}
             </div>
           </form>
@@ -201,11 +201,11 @@ const FormNote = React.memo(() => {
               className="btn cancel"
               onClick={handleCancelNote}
             >
-              cancel
+              Cancelar
             </button>
 
             <button form="my-form" type="submit" className="btn add">
-              {state.updateNote ? "update" : "add"}
+              {state.updateNote ? "Atualizar" : "Adicionar"}
             </button>
           </>
         )}
@@ -289,7 +289,7 @@ export default FormNote;
                 onBlur={handleBlur}
               >
                 <option value="" selected disabled hidden>
-                  select gategory
+                  select Categoria
                 </option>
                 {state.cat.map((item, i) => {
                   if (i !== 0) return <option value={item}>{item}</option>;

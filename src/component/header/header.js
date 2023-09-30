@@ -32,7 +32,7 @@ const Header = () => {
         <form>
           <input
             value={search}
-            placeholder="Search notes..."
+            placeholder="Procurar nota"
             className="input-search-note"
             onChange={(e) => handleOnchange(e)}
           />

@@ -62,7 +62,7 @@ const ShowNotes = React.memo(() => {
         </div>
         <div className="addNote-container">
           <button onClick={handleShowAddNote} className=" add-note">
-            <AiOutlinePlus className="icon-plus" /> add note
+            <AiOutlinePlus className="icon-plus" /> Nova nota
           </button>
         </div>
 
@@ -81,8 +81,8 @@ const ShowNotes = React.memo(() => {
       {state.notes.length > 0 && (
         <div className="progress-note">
           <p>
-            you have <span className="start">{state.countRead}</span>/
-            <span className="end">{state.notes.length}</span> notes completed
+            Você tem <span className="start">{state.countRead}</span>/
+            <span className="end">{state.notes.length}</span> notas completas
           </p>
           <div className="progress-bar">
             <div className="fill-bg"></div>
@@ -102,13 +102,13 @@ const ShowNotes = React.memo(() => {
           state.notes.length !== 0 &&
           state.cat !== "all" && (
             <div className="not-notes">
-              <p className="title-not-notes">couldn't find any notes.</p>
+              <p className="title-not-notes">Não conseguimos encontrar nenhuma nota.</p>
               <img src={searchImage} alt={notNotes} className="img-note" />
             </div>
           )}
         {state.filteredNotes.length === 0 && state.notes.length === 0 && (
           <div className="not-notes">
-            <p className="title-not-notes">you don't have any notes.</p>
+            <p className="title-not-notes">Você não tem nenhuma nota</p>
             <img src={notNotes} alt={notNotes} className="img-note" />
           </div>
         )}
