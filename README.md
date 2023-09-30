@@ -1,12 +1,12 @@
-Manage your work, home, personal tasks with notes app. Add ability to add, edit, delete, and mark them as completed. Additional features include searching, filtering and visualizing completion progress.
+Gerencie suas tarefas profissionais, domésticas e pessoais com o aplicativo de notas. Adicione a capacidade de adicionar, editar, excluir e marcá-los como concluídos. Recursos adicionais incluem pesquisa, filtragem e visualização do progresso da conclusão.
 
-:star: Original project
+:star: Projeto original
 [bigsondev.com](https://bigsondev.com/projects/notes-app-project/)
 
-:star: Designed by
+:star: Projetado por
 [Milena Ulman](https://www.behance.net/milenaulman)
 
-## :gear: Technologies & Tools
+## :gear: Tecnologias e ferramentas
 
 - React
 - Redux ([Redux Toolkit](https://redux-toolkit.js.org/))
@@ -15,44 +15,30 @@ Manage your work, home, personal tasks with notes app. Add ability to add, edit,
 - LocalStorage
 - Web worker
 
-## :trophy: Features
+## :trophy: Recursos
 
-- Users can search and filter notes.
-- Users can add new notes.
-- When adding a new note, users can fill title, description, and category. The date is created under the hood using the current time.
-- Users can see created, colored notes sorted by date as well as an empty UI with illustration when there are no notes or couldn't be found.
-- Users can see how many notes are completed including the visual progression indicator.
-- Users can mark notes as completed, edit, and delete them.
-- Completed notes have strikethrough text and gray background. Also, they are moved into the end.
-- When editing notes, the date of note also updates all together with other fields.
-- Confirmation pops up when deleting notes.
+- Os usuários podem pesquisar e filtrar notas.
+- Os usuários podem adicionar novas notas.
+- Ao adicionar uma nova nota, os usuários podem preencher título, descrição e categoria. A data é criada internamente usando a hora atual.
+- Os usuários podem ver notas coloridas criadas, classificadas por data, bem como uma interface de usuário vazia com ilustração quando não há notas ou não podem ser encontradas.
+- Os usuários podem ver quantas notas foram concluídas, incluindo o indicador visual de progressão.
+- Os usuários podem marcar notas como concluídas, editá-las e excluí-las.
+- As notas concluídas possuem texto tachado e fundo cinza. Além disso, eles são movidos para o final.
+- Ao editar notas, a data da nota também é atualizada junto com outros campos.
+- A confirmação aparece ao excluir notas.
 
 ## :gem: Additional Features
 
-- Notes data stored in localStorage
-- Installable (PWA)
-- Optimized for mobile
-- Ability to mock notes if notes list is empty
+- Notas de dados armazenados em localStorage
+- Instalável (PWA)
+- Otimizado para celular
+- Capacidade de simular notas se a lista de notas estiver vazia
 
-## :wrench: Project setup
+## :wrench: Configuração do projeto
 
 ```bash
-# In the project directory run:
+# No diretorio do projeto execute:
 npm install & npm start
+Após o NPM START, ir em app.js e trocar o ./app.js por ./App.js
 ```
 
-
-// 
-
-.-----------------.
-/  ___    ___    \
-|  /   \  /   \   |
-| |  </> ||   </>  |
-|  \___/  \___/   |
-|   Desenvolvido  |
-|      por        |
-|  Célio Guimarães |
-\_______________/
-
-
-//
