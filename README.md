@@ -29,7 +29,7 @@ Gerencie suas tarefas profissionais, domésticas e pessoais com o aplicativo de 
 - Ao editar notas, a data da nota também é atualizada junto com outros campos.
 - A confirmação aparece ao excluir notas.
 
-## :gem: Additional Features
+## :gem: Recursos adicionais
 
 - Notas de dados armazenados em localStorage
 - Instalável (PWA)
