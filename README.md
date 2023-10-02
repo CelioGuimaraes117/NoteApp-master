@@ -1,5 +1,7 @@
 Gerencie suas tarefas profissionais, domésticas e pessoais com o aplicativo de notas. Adicione a capacidade de adicionar, editar, excluir e marcá-los como concluídos. Recursos adicionais incluem pesquisa, filtragem e visualização do progresso da conclusão.
 
+:computer: DEMO: https://note-app-master-onwrkml7a-celioguimaraes117s-projects.vercel.app/
+
 :star: Projeto original
 [bigsondev.com](https://bigsondev.com/projects/notes-app-project/)
 
