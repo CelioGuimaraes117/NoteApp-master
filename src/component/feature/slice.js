@@ -7,7 +7,7 @@ const initialState = {
     { value: "Todas", label: "Todas" },
     { value: "Casa", label: "Casa" },
     { value: "Trabalho", label: "Trabalho" },
-    { value: "Pessoais", label: "Pessoais" },
+    { value: "Pessoal", label: "Pessoais" },
   ],
   showModal: false,
   updateNote: false,
